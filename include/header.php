@@ -10,6 +10,7 @@
     <a href="category.php">Category</a>
     <a href="user.php">User</a>
     <a href="schedule.php">Schedule</a>
+    <a href="adv_schedule.php">Advance Schedule</a>
     <nav>
         <a href="./config/logout.php">Logout</a>
     </nav>
