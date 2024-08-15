@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 12, 2024 at 11:00 PM
+-- Generation Time: Aug 15, 2024 at 08:18 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -86,8 +86,9 @@ CREATE TABLE `schedules` (
 --
 
 INSERT INTO `schedules` (`id`, `title`, `user_id`, `cat_id`, `start_date`, `end_date`) VALUES
-(4, 'schedule 1', 6, 1, '2024-08-01', '2024-08-13'),
-(5, 'Totam qui nemo ea es', 1, 5, '2004-10-31', '1990-04-10');
+(1, 'Event 1', 6, 8, '2024-08-15', '2024-08-17'),
+(2, 'Event 2', 1, 9, '2024-08-18', '2024-08-20'),
+(3, 'event 101', 4, 6, '2024-08-05', '2024-08-08');
 
 -- --------------------------------------------------------
 
@@ -164,7 +165,7 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `schedules`
 --
 ALTER TABLE `schedules`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `users`
